@@ -14,8 +14,6 @@ print("Введите значение S")
 s = int(input())
 if s % 6 == 0:
     x = s // 6
-    print(x)
-    print(x*4)
-    print(x)
+    print(x, x*4, x)
 else:
     print("Неверное S")
